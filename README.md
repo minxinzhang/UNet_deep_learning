@@ -1,7 +1,7 @@
 # 个人课程项目介绍
 复刻了UNet的论文代码（见`Unet.pdf`)。对细胞影像原始图片进行细胞核的识别工作，训练数据来自https://bbbc.broadinstitute.org/BBBC039 。
 整个程序对算力要求及其高，建议和我一样申请一个谷歌服务器上的GPU跑训练。每个新谷歌账户有500美元的免费使用额度，可以在GCP上租借最便宜的英伟达T4节约时间（整个过程1小时左右）。
-原始源代码API已过期，我的工作是调用了新的API（所有的Python文件），修改训练参数如原始图片的分割大小，训练数据和验证数据的比例。特别地，针对原始数据量过小的问题，进行了数据增强，并对比新数据集和老数据集的模型训练效果。具体报告请阅读`report.pdf`。
+原始源代码TensorFlow, Keras, SkiImage API已过期，我的工作是调用了新的API（所有的Python文件），修改训练参数如原始图片的分割大小，训练数据和验证数据的比例。特别地，针对原始数据量过小的问题，进行了数据增强，并对比新数据集和老数据集的模型训练效果。具体报告请阅读`report.pdf`。
 
 # SOURCE CODE
 Most parts of the source code is from https://bbbc.broadinstitute.org/BBBC039
