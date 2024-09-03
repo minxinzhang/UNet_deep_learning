@@ -36,5 +36,5 @@ glob2                         0.7
 ## replicate my preset experiment
 after the experiment preparation, simply run `python compare.py`
 It is computational heavy. You can check my experiment process in `output.log`
-The summary of the experiment result is in the ``data/experiments/impact*` folder.
+The summary of the experiment result is in the `data/experiments/impact*` folder.
 
